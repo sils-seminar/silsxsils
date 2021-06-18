@@ -1,0 +1,143 @@
+// Place all the styles related to the unis controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+    /*   First block Start  */
+#uni-first-block {
+    background-image:url("https://images.pexels.com/photos/1704120/pexels-photo-1704120.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    text-align: center;
+    height: 400px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+  }
+
+.uni-title {
+    font-size: 40px;
+    font-family: 'Beth Ellen', cursive;
+    font-weight: 500;
+    color:white;
+    text-align:center;
+    margin-top:9%;
+  }
+
+.uni-text {
+    font-size: 25px;
+    font-family: 'Open Sans';
+    margin-bottom: 30px;
+    color: #444;
+    width: 60%;
+    text-align:center;
+    margin-left:250px;
+  }
+    /*   First block End  */
+
+    /*   Second block Start   */
+  #uni-second-block {
+    background-color: #a3c468;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .sempai-container{
+    background-color: #a3c468;
+  }
+
+  .sempai-title {
+    font-size: 35px;
+    font-family: 'Beth Ellen', cursive;
+    font-weight: 500;
+    color: #ff5757;
+    text-align: center;
+  } 
+
+  .self-image1 {
+    border-radius: 50%; 
+    width: 270px;  
+    height: 270px;
+    object-fit: cover;
+    float: left;
+    margin-left: 40px;
+    overflow: hidden;
+    cursor: pointer;
+    transition-duration: 0.5s;
+} 
+
+.self-image1:hover{
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+}
+
+  .sempai-1{
+    font-size: 18px;
+    font-family: 'Open Sans';
+    color: #444;
+    width: 60%;
+    text-align:left;
+    line-height: 200%;
+    margin-left: 300px;
+    margin-bottom: 100px;
+    padding: 0.5em 1em;
+    color: #474747;
+    background: #fff8e8;/*背景色*/
+    border-left: double 10px #00a1a2;/*左線*/
+    border-right: double 10px#00a1a2;/*右線*/
+}
+
+.self-image2 {
+    border-radius: 50%; 
+    width: 250px;  
+    height: 250px;
+    object-fit: cover;
+    float: right;
+    margin-right: 90px;
+    margin-bottom:50px;
+    overflow: hidden;
+    cursor: pointer;
+    transition-duration: 0.5s;
+  } 
+  
+  .self-image2:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+  }
+
+.sempai-2{
+    font-size: 18px;
+    font-family: 'Open Sans';
+    color: #444;
+    line-height: 200%;
+    margin-bottom: 100px;
+    text-align: left;
+    margin-left: 460px; 
+    margin-right: 0px; 
+    width: 60%;
+    padding: 0.5em 1em;
+    color: #474747;
+    background: #fff8e8;/*背景色*/
+    border-left: double 10px #00a1a2;/*左線*/
+    border-right: double 10px #00a1a2;/*右線*/
+}   
+
+.web {
+  position:static;
+  margin-right: 1000px;
+  display: inline-block;
+  font-family: 'Open Sans';
+  font-size: 15pt;        /* 文字サイズ */
+  text-align: center;      /* 文字位置   */
+  cursor: pointer;     /* カーソル   */
+  padding: 12px 12px;   /* 余白       */
+  background: #16A085 ;     /* 背景色     */
+  color: #ffffff;     /* 文字色     */
+  line-height: 1em;         /* 1行の高さ  */
+  transition: .3s;         /* なめらか変化 */
+  border: 2px solid #16A085 ;    /* 枠の指定 */
+}
+.web:hover {
+  box-shadow: none;        /* カーソル時の影消去 */
+  color: #16A085;     /* 背景色     */
+  background: #ffffff;     /* 文字色     */
+}
+    /*   Second block End  */

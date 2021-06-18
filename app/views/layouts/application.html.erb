@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RailsApp</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <header class="header-nav1">
+<div class="logo">
+<%= image_tag 'Logo.png', :width => '120', :height => '120' %>
+</div>
+
+<nav><a href="/hello/index.html/#first-block">Home</a></nav>
+<nav><a href="/hello/index.html/#second-block">About us</a></nav>
+<nav><a href="/hello/index.html/#third-block">What we offer</a></nav>
+<nav><a href="/hello/index.html/#fourth-block">Social Media</a></nav>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap" rel="stylesheet">
+</header>
+    </head>
+
+<body>
+<%= yield %>
+</body>
+</html>
