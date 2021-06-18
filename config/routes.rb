@@ -1,0 +1,8 @@
+Rails.application.routes.draw do
+  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+
+get 'hello/index' => 'hello#index'
+get "careers" => "careers#index"
+get "abroads" => "abroads#index"
+get "unis" => "unis#index"
+end
